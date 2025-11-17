@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYMXPERIENCE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+        }
+
+        h2 {
+            color: #ff6600;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #e65c00;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GYMXPERIENCE</h1>
+        <p>Tu mejor versión empieza aquí</p>
+    </header>
+
+    <div class="container">
+        <h2>Membresía Premium</h2>
+        <p>Accede a todas nuestras instalaciones, clases dirigidas, zona de peso libre y máquinas de última generación.</p>
+
+        <h2>Beneficios</h2>
+        <ul>
+            <li>Acceso 24/7</li>
+            <li>Clases dirigidas ilimitadas</li>
+            <li>Entrenador personal (1 sesión al mes)</li>
+            <li>App con seguimiento de progreso</li>
+        </ul>
+
+        <h2>Precios</h2>
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Precio</th>
+                <th>Duración</th>
+            </tr>
+            <tr>
+                <td>Mensual</td>
+                <td>29,99€</td>
+                <td>1 mes</td>
+            </tr>
+            <tr>
+                <td>Trimestral</td>
+                <td>79,99€</td>
+                <td>3 meses</td>
+            </tr>
+            <tr>
+                <td>Anual</td>
+                <td>249,99€</td>
+                <td>12 meses</td>
+            </tr>
+        </table>
+
+        <h2>Únete ahora</h2>
+        <form>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tipo">Tipo de membresía:</label>
+            <select id="tipo" name="tipo">
+                <option value="mensual">Mensual</option>
+                <option value="trimestral">Trimestral</option>
+                <option value="anual">Anual</option>
+            </select>
+
+            <input type="submit" value="Enviar solicitud">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 GYMXPERIENCE. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
