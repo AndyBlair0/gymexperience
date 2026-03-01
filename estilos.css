@@ -1,75 +1,10 @@
-/* Paleta de colores: Naranja deportivo y Oscuros */
 body {
     font-family: 'Helvetica', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
+    padding: 0;
     color: #333;
     background-color: #fdfdfd;
-}
-
-header {
-    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
-    color: #fff;
-    padding: 3rem 1rem;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-}
-
-.main-content {
-    max-width: 850px;
-    margin: 20px auto;
-    padding: 20px;
-}
-
-h2 {
-    color: #ff6600;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    background: white;
-}
-
-th {
-    background-color: #ff6600;
-    color: white;
-    text-align: left;
-}
-
-td, th {
-    padding: 12px;
-    border: 1px solid #eee;
-}
-
-
-.registro {
-    background: #f4f4f4;
-    padding: 25px;
-    border-radius: 10px;
-    border-left: 5px solid #ff6600;
-}
-
-button {
-    background: #ff6600;
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover {
-    background: #333;
 }
 
 .navbar {
@@ -122,16 +57,5 @@ button:hover {
     color: #ff6600;
 }
 
-
 .btn-nav {
-    background-color: #6e31b0; 
-    color: white !important;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-
-.btn-nav:hover {
-    background-color: #56258d;
-    transform: translateY(-2px);
-}
+    background-color: #
