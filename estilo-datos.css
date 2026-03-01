@@ -1,0 +1,36 @@
+gymxperience {
+    display: block;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 40px;
+    background-color: #121212;
+}
+
+clase {
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-left: 6px solid #6e31b0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+actividad {
+    display: block;
+    color: #6e31b0;
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+monitor, hora, sala {
+    display: block;
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    margin-top: 8px;
+}
+
+monitor::before { content: "INSTRUCTOR: "; color: #6e31b0; font-weight: bold; }
+hora::before { content: "HORARIO: "; color: #6e31b0; font-weight: bold; }
+sala::before { content: "SALA: "; color: #6e31b0; font-weight: bold; }
