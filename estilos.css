@@ -58,4 +58,109 @@ body {
 }
 
 .btn-nav {
-    background-color: #
+    background-color: #6e31b0; 
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.btn-nav:hover {
+    background-color: #56258d;
+    transform: translateY(-2px);
+}
+
+header {
+    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+    color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.main-content {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+}
+
+h2 {
+    color: #ff6600;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+}
+
+th {
+    background-color: #ff6600;
+    color: white;
+    text-align: left;
+}
+
+td, th {
+    padding: 12px;    border: 1px solid #eee;
+}
+
+.registro {
+    background: #f4f4f4;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #ff6600;
+    margin-top: 30px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+    color: #999;
+    margin-top: 50px;
+}
