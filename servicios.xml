@@ -3,26 +3,33 @@
 <gymxperience xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="servicios.xsd">
     <clase id="C01">
         <actividad>Crossfit</actividad>
-        <monitor>Carlos Ruíz</monitor>
+        <monitor>Abril Cantero</monitor>
         <hora>09:00</hora>
-        <sala>Box Principal</sala>
+        <sala>Principal</sala>
     </clase>
     <clase id="C02">
         <actividad>Spinning</actividad>
-        <monitor>Laura Gómez</monitor>
+        <monitor>Laura Pianres</monitor>
         <hora>11:30</hora>
         <sala>Sala Ciclo</sala>
     </clase>
     <clase id="C03">
         <actividad>Boxeo</actividad>
-        <monitor>Dani "The Rock"</monitor>
+        <monitor>Dani Pedrosa</monitor>
         <hora>18:00</hora>
-        <sala>Zona Ring</sala>
+        <sala>Zona Sacos</sala>
     </clase>
     <clase id="C04">
         <actividad>Yoga</actividad>
-        <monitor>Sara Zen</monitor>
+        <monitor>Sara Chen</monitor>
         <hora>20:00</hora>
-        <sala>Sala Wellness</sala>
+        <sala>Sala Multi/sala>
     </clase>
+        <clase id="C05">
+        <actividad>Cossfit</actividad>
+        <monitor>Kiko Jimenez</monitor>
+        <hora>08:00</hora>
+        <sala>Principal/sala>
+    </clase>
+
 </gymxperience>
