@@ -26,4 +26,5 @@ actividad {
 monitor, hora, sala {
     display: block;
     margin-top: 5px;
+    color: #cccccc;
 }
