@@ -5,7 +5,7 @@
         <actividad>Crossfit</actividad>
         <monitor>Abril Cantero</monitor>
         <hora>09:00</hora>
-        <sala>Principal</sala>
+        <sala>Sala Principal</sala>
     </clase>
     <clase id="C02">
         <actividad>Spinning</actividad>
@@ -17,7 +17,7 @@
         <actividad>Boxeo</actividad>
         <monitor>Dani Pedrosa</monitor>
         <hora>18:00</hora>
-        <sala>Zona Sacos</sala>
+        <sala>Sala dde Sacos</sala>
     </clase>
     <clase id="C04">
         <actividad>Yoga</actividad>
@@ -29,7 +29,8 @@
         <actividad>Cossfit</actividad>
         <monitor>Kiko Jimenez</monitor>
         <hora>08:00</hora>
-        <sala>Principal/sala>
+        <sala>Sala Principal/sala>
     </clase>
 
 </gymxperience>
+
