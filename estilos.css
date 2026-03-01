@@ -32,7 +32,6 @@ h2 {
     font-size: 1.2rem;
 }
 
-/* Diseño de la tabla */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -51,7 +50,7 @@ td, th {
     border: 1px solid #eee;
 }
 
-/* El formulario */
+
 .registro {
     background: #f4f4f4;
     padding: 25px;
@@ -71,4 +70,68 @@ button {
 
 button:hover {
     background: #333;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #ff6600; 
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-left: 25px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #ff6600;
+}
+
+
+.btn-nav {
+    background-color: #6e31b0; 
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.btn-nav:hover {
+    background-color: #56258d;
+    transform: translateY(-2px);
 }
