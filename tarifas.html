@@ -2,41 +2,27 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarifas | GYMXPERIENCE</title>
+    <title>Precios - GYMXPERIENCE</title>
     <link rel="stylesheet" href="estilos.css">
-<style>
-    .tabla-precios {
-        width: 100%;
-        margin-top: 20px;
-        background-color: #222;
-        color: white;
-        border: 2px solid #6e31b0;
-    }
-
-    .tabla-precios th {
-        background-color: #6e31b0;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .tabla-precios td {
-        padding: 10px;
-        text-align: center;
-        border: 1px solid #444;
-    }
-
-    .destacado {
-        color: #9d4edd;
-        font-weight: bold;
-    }
-
-    .main-content {
-        padding: 20px;
-        max-width: 90%;
-        margin: 0 auto;
-    }
-</style>
+    <style>
+        .tabla-gym {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        .tabla-gym th {
+            background-color: #6e31b0;
+            color: white;
+            padding: 15px;
+        }
+        .tabla-gym td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        .fila-oscura { background-color: #f2f2f2; }
+    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -51,39 +37,33 @@
         </div>
     </nav>
 
-    <main class="main-content">
-        <h2 style="text-align: center; color: #6e31b0; text-transform: uppercase;">Planes de Entrenamiento</h2>
-        <p style="text-align: center; color: #666;">Elige la suscripción que mejor se adapte a tu ritmo de vida.</p>
+    <h2 style="text-align: center; margin-top: 40px; color: #6e31b0;">PLANES DE ENTRENAMIENTO</h2>
+    <p style="text-align: center;">Elige la suscripción que mejor se adapte a ti</p>
 
-        <table class="tabla-precios">
-            <thead>
-                <tr>
-                    <th>Plan</th>
-                    <th>Beneficios</th>
-                    <th>Precio Mensual</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>BASIC</strong></td>
-                    <td>Acceso mañanas + Zona de peso libre</td>
-                    <td class="destacado">19,99€</td>
-                </tr>
-                <tr>
-                    <td><strong>PREMIUM</strong></td>
-                    <td>Acceso 24/7 + Todas las clases dirigidas</td>
-                    <td class="destacado">29,99€</td>
-                </tr>
-                <tr>
-                    <td><strong>ULTIMATE</strong></td>
-                    <td>Todo incluido + Sesión mensual con PT</td>
-                    <td class="destacado">49,99€</td>
-                </tr>
-            </tbody>
-        </table>
-    </main>
+    <table class="tabla-gym">
+        <tr>
+            <th>PLAN</th>
+            <th>SERVICIOS</th>
+            <th>PRECIO</th>
+        </tr>
+        <tr>
+            <td><b>BASIC</b></td>
+            <td>Acceso mañanas y sala de pesas</td>
+            <td>19,99€</td>
+        </tr>
+        <tr class="fila-oscura">
+            <td><b>PREMIUM</b></td>
+            <td>Acceso 24/7 y clases colectivas</td>
+            <td>29,99€</td>
+        </tr>
+        <tr>
+            <td><b>VIP</b></td>
+            <td>Todo incluido y entrenador personal</td>
+            <td>49,99€</td>
+        </tr>
+    </table>
 
-    <footer style="text-align: center; padding: 20px; background: #1a1a1a; color: white;">
+    <footer style="text-align: center; margin-top: 50px;">
         <p>&copy; 2026 GYMXPERIENCE - Proyecto ASIR</p>
     </footer>
 </body>
